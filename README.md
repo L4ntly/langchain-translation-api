@@ -3,7 +3,7 @@
 - LangChain kullanarak Google Gemini modeline mesaj gönderme ve modelden cevap alma dosyasıdır.
 
 Kullanılanlar:
-- ChatGoogleGenerativeAI -> Gemini modelş
+- ChatGoogleGenerativeAI -> Gemini modeli
 - SystemMessage -> modele görev verir
 - HumanMessage -> kullanıcı mesajını temsil eder
 - model.invoke() -> mesajları modele gönderir
@@ -11,8 +11,8 @@ Kullanılanlar:
 
 
 ### templateMessage.py
-- > Prompt Template + LCEL(LangChain Expression Language)
-- LangChain'de 'Prompt Template' kullanılarak dinamik prompt oluşturma ve LCEL ile zincir(chain) oluşturma örneğidir.
+- > Prompt Template + LCEL (LangChain Expression Language)
+- LangChain'de 'Prompt Template' kullanılarak dinamik prompt oluşturma ve LCEL ile zincir (chain) oluşturma örneğidir.
 
 - ChatPromptTemplate -> System ve User mesajlarını şablon haline getirir.
 - {language} ve {text} -> sonradan verilen değişkenlerdir.
@@ -44,7 +44,7 @@ Request -> FastAPI -> Langserve -> LangChain chain -> Gemini -> Response
 
 
 ![alt text](image.png)
-Google Gemini('your_gemini_model'), LangChain (LCEL) ve LangServe kullanılarak geliştirilmiş dinamik çeviri uygulaması.
+Google Gemini('your_gemini_model'), LangChain (LCEL) ve LangServe kullanılarak geliştirilmiş dinamik çeviri uygulamasıdır.
 örneğin -> your_gemini_model=gemini-2.5-flash
 - > Özellikler
 - LCEL (LangChain Expression Language):
