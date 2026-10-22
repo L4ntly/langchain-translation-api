@@ -68,6 +68,7 @@ Google Gemini('your_gemini_model'), LangChain (LCEL) ve LangServe kullanılarak 
 
 2. API anahtarınızı .env dosyasına ekleyin:
    GOOGLE_API_KEY=your_gemini_api_key
+   LANGCHAIN_API_KEY=your_langchain_api_key
 
 3. LangServe sunucusunu başlatın:
    python / py langServe.py
